@@ -1,0 +1,28 @@
+﻿Build started 2020/1/10 18:32:25.
+     1>Project "c:\Users\ADMIN\documents\visual studio 2010\Projects\Joseph ring\Joseph ring\Joseph ring.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Joseph ring.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\Joseph ring.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt joseph.cpp main.cpp
+         main.cpp
+         joseph.cpp
+     1>c:\users\admin\documents\visual studio 2010\projects\joseph ring\joseph ring\joseph.cpp(21): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\admin\documents\visual studio 2010\projects\joseph ring\joseph ring\joseph.cpp(82): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+     1>c:\users\admin\documents\visual studio 2010\projects\joseph ring\joseph ring\joseph.cpp(34): warning C4715: 'Joseph::check' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\admin\documents\visual studio 2010\Projects\Joseph ring\Debug\Joseph ring.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Joseph ring.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\admin\documents\visual studio 2010\Projects\Joseph ring\Debug\Joseph ring.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\admin\documents\visual studio 2010\Projects\Joseph ring\Debug\Joseph ring.lib" /MACHINE:X86 Debug\joseph.obj
+         Debug\main.obj
+         Joseph ring.vcxproj -> c:\users\admin\documents\visual studio 2010\Projects\Joseph ring\Debug\Joseph ring.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\users\admin\documents\visual studio 2010\Projects\Joseph ring\Debug\Joseph ring.exe;#1" /manifest "Debug\Joseph ring.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\Joseph ring.unsuccessfulbuild".
+         Touching "Debug\Joseph ring.lastbuildstate".
+     1>Done Building Project "c:\Users\ADMIN\documents\visual studio 2010\Projects\Joseph ring\Joseph ring\Joseph ring.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.40
