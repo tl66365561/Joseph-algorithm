@@ -10,7 +10,7 @@
 
 
 
-
+//41,3   16,31      (
 
 #include <iostream>
 #include "joseph.h"
@@ -20,10 +20,14 @@
 
 int main(){
 
+	//测试用例不能全部达标，
+	//优化，输入最后存活的x人编号，x=?;  改进一下check（）函数
 
-    Joseph jos(6);
-	jos.func(5);
-    jos.print();
+
+	Joseph jos(41);
+//	jos.func(3,2);    //Binggo
+    jos.func(3,2);
+	jos.print();
 	system("pause");
 	return 0;
 }
